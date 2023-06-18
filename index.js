@@ -37,6 +37,10 @@ const addEmployee = (event)=>{
        
         div.innerText="Success : Employee Added!";
         div.style.color="green";
+document.getElementById("name").value="";
+document.getElementById("profession").value="";
+document.getElementById("age").value="";
+
       
     }
     //miss any of them
